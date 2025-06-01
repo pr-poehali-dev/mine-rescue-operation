@@ -3,6 +3,7 @@ import MiningPanel from "@/components/MiningPanel";
 import DefenseSystem from "@/components/DefenseSystem";
 import Barracks from "@/components/Barracks";
 import EscapeMission from "@/components/EscapeMission";
+import ZombieMap from "@/components/ZombieMap";
 
 const Index = () => {
   return (
@@ -27,6 +28,7 @@ const Index = () => {
 
           <div className="space-y-6">
             <Barracks />
+            <ZombieMap />
           </div>
 
           <div className="lg:col-span-2 xl:col-span-1">
